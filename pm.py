@@ -1,8 +1,7 @@
-class PM:
-  def __init__(self, asset, interval,entitlement):
-    self.asset = asset
-    self.interval = interval
-    self.entitlement = entitlement
+def create_model_wo(description,status,currency):
+    description = input("Description of the WO: ")
+    status = input("What is the default status: ")
+    currency = input("What is the default currency: ")
+    print("Your Model WO is created" /n + "currency")
 
-tidewater_solar = PM("inverter",3,"Availability Guarantee")
-print(tidewater_solar.entitlement)
+create_model_wo("test","In Planning","USD - U.S. Dollar")
